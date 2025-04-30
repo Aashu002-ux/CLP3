@@ -4,7 +4,7 @@
 
 This project uses a **Genetic Algorithm (GA)** to find a list of `k` digits (from 0 to 9) such that their **product equals a target integer `T`**.
 
-## 🔍 Problem Statement
+##  Problem Statement
 
 Given:
 - A target product `T`
@@ -14,9 +14,9 @@ Given:
 Goal:
 > Evolve a list of `k` integers where the **product of all numbers equals `T`**.
 
----
 
-## 🧬 Approach: Genetic Algorithm
+
+##  Approach: Genetic Algorithm
 
 The solution applies standard GA components:
 
@@ -27,11 +27,11 @@ The solution applies standard GA components:
 - **Mutation**: Randomly replace digits with a small probability.
 - **Termination**: Stop when a solution is found or after max generations.
 
----
 
-## ✅ Example Usage
 
-```python
+## Example Usage
+
+python
 # Example test cases
 result1 = evolve(12, 3)
 result2 = evolve(18, 3)
